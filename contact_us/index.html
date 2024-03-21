@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <div class="background">
+      <nav class="nav-container">
+        <img src="asset/1.png" alt="logo" class="logo" width="50px" height="50px" data-aos="fade-right" data-aos-duration="2000" />
+        <h2 data-aos="fade-right" data-aos-duration="2000">MyWebsite</h2>
+        <ul class="navbar" data-aos="fade-left" data-aos-duration="2000">
+          <li>
+            <a href="../dashboard/index.html">Home</a>
+            <a href="info.php">Info</a>
+            <a href="../about_us/index.html">About Us</a>
+            <a href="../contact_us/index.html">Contact Us</a>
+            <a href="logout.php" class="logout">Log Out</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="question">
+        <h1>Apakah kalian punya pertanyaan?</h1>
+        <p>Terima kasih karena anda menyempatkan waktu ke website kami. jika kalian ingin bertanya tentang seputar website kami atau di luar itu, silahkan tuliskan saja pertanyaan di bawah ini.</p>
+      </div>
+      <div class="waves">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill="white"
+            fill-opacity="1"
+            d="M0,64L30,90.7C60,117,120,171,180,208C240,245,300,267,360,250.7C420,235,480,181,540,144C600,107,660,85,720,117.3C780,149,840,235,900,256C960,277,1020,235,1080,192C1140,149,1200,107,1260,101.3C1320,96,1380,128,1410,144L1440,160L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"
+          ></path>
+        </svg>
+      </div>
+    </div>
+    <div class="container">
+      <div class="content-left">
+        <img src="asset/1.svg" alt="contact" width="250px" />
+        <div class="address">
+          <h2>Kontak dan Alamat</h2>
+          <li>
+            <a href="https://wa.me/6285797127694">+62 857-9712-7694</a>
+            <a href="mailto:miftamartin1@gmail.com">miftamartin1@gmail.com</a>
+            <a href="">
+              Jl. Pancuran, No. 19 <br />
+              Rt. 2 Rw. 9
+            </a>
+          </li>
+        </div>
+      </div>
+      <div class="content-right">
+        <form class="form" name="contact-form">
+          <div class="icon 1">
+            <input type="text" name="nm_depan" id="nm_depan" placeholder="Nama Depan" />
+            <i class="fa-solid fa-user" id="icon1"></i>
+          </div>
+          <div class="icon 2">
+            <input type="text" name="nm_belakang" id="nm_belakang" placeholder="Nama Belakang" />
+            <i class="fa-regular fa-user" id="icon2"></i>
+          </div>
+          <div class="icon 3">
+            <input type="number" name="no_tlp" id="no_tlp" placeholder="No Telepon" />
+            <i class="fa-solid fa-phone" id="icon3"></i>
+          </div>
+          <div class="icon 4">
+            <input type="email" name="email" id="email" placeholder="Email" />
+            <i class="fa-sharp fa-solid fa-square-envelope" id="icon4"></i>
+          </div>
+          <div class="icon 5">
+            <textarea name="textarea" id="textarea" cols="40" rows="10" placeholder="Pesan"></textarea>
+            <i class="fa-solid fa-bars" id="icon5"></i>
+          </div>
+          <button type="submit" name="submit">Kirim Pesan</button>
+          <p>
+            informasi pesan anda tidak akan kami sebarkan.<br />
+            privasi anda selalu kami jaga.
+          </p>
+        </form>
+      </div>
+    </div>
+    <script src="https://kit.fontawesome.com/29c51fef9f.js" crossorigin="anonymous"></script>
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbwzbHNkz52dLiyp0ylJ4UgwQl_EDymrymttkUoSkb1ofIJTF_9Ctaik9ekgfbtYlsZ8/exec';
+      const form = document.forms['contact-form'];
+    </script>
+  </body>
+</html>

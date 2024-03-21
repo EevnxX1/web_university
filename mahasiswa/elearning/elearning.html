@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>E-Learning</title>
+  </head>
+  <body>
+    <div class="background">
+      <nav class="nav-container">
+        <img src="asset/1.png" alt="logo" class="logo" width="50px" height="50px" data-aos="fade-right" data-aos-duration="2000" />
+        <h2 data-aos="fade-right" data-aos-duration="2000">University</h2>
+        <ul class="navbar" data-aos="fade-left" data-aos-duration="2000">
+          <li>
+            <a href="../dashboard/index.html">Home</a>
+            <a href="../pembayaran/pembayaran.php">Pembayaran</a>
+            <a href="../kelas/absen/absensi.php">Absen</a>
+            <a href="../elearning/elearning.html">Elearning</a>
+            <a href="../../index.php" class="logout">Log Out</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="container" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
+      <h2>Daftar Kelas:</h2>
+      <div class="kls1">
+        <span class="teks">Pemrograman Internet</span>
+        <span class="dosen1">Dosen: Chairun Nas, S.Kom., M.Kom.</span>
+        <a href="../kelas/pemrograman_internet.html"><button>Masuk Kelas</button></a>
+      </div>
+      <div class="kls">
+        <span class="teks">Algoritma Dan Pemrograman</span>
+        <span class="dosen2">Dosen: Kusnadi, M.Kom.</span>
+        <a href="../kelas/algoritma.html"><button>Masuk Kelas</button></a>
+      </div>
+      <div class="kls">
+        <span class="teks">Arsitektur Dan Organisasi Komputer</span>
+        <span class="dosen3">Dosen: Victor Asih, S.Si., M.T.</span>
+        <a href="../kelas/komputer.html"><button>Masuk Kelas</button></a>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

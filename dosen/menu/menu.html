@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Menu</title>
+  </head>
+  <body>
+    <div class="background">
+      <nav class="nav-container">
+        <img src="../dashboard/asset/1.png" alt="logo" class="logo" width="50px" height="50px" data-aos="fade-right" data-aos-duration="2000" />
+        <h2 data-aos="fade-right" data-aos-duration="2000">University</h2>
+        <ul class="navbar" data-aos="fade-left" data-aos-duration="2000">
+          <li>
+            <a href="../dashboard/index.html">Home</a>
+            <a href="../list_mahasiswa/list_mhs.php">List Mahasiswa</a>
+            <a href="../absensi_mhs/absensi_mhs.php">Absen Mahasiswa</a>
+            <a href="../absensi/absensi.php">Absensi</a>
+            <a href="../../index.php" class="logout">Log Out</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="container">
+      <div class="card1">
+        <a href="../absensi/absensi.php">
+          <button><i class="fa-regular fa-address-card"></i>ABSENSI</button>
+        </a>
+        <a href="../absensi_mhs/absensi_mhs.php">
+          <button><i class="fa-regular fa-calendar-days"></i>ABSENSI MAHASISWA</button>
+        </a>
+        <a href="../data_penilaian/data_penilaian.php">
+          <button><i class="fa-solid fa-book"></i>DATA PENILAIAN</button>
+        </a>
+      </div>
+      <div class="card2">
+        <a href="../hasil_tugas">
+          <button><i class="fa-solid fa-book-open-reader"></i>HASIL TUGAS</button>
+        </a>
+        <a href="../penilaian/penilaian.php">
+          <button><i class="fa-solid fa-marker"></i>PENILAIAN</button>
+        </a>
+        <a href="../list_mahasiswa/list_mhs.php">
+          <button><i class="fa-solid fa-table-list"></i>LIST MAHASISWA</button>
+        </a>
+      </div>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://kit.fontawesome.com/29c51fef9f.js" crossorigin="anonymous"></script>
+  </body>
+</html>

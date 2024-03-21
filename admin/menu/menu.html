@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Menu</title>
+  </head>
+  <body>
+    <div class="background">
+      <nav class="nav-container">
+        <img src="../dashboard/asset/1.png" alt="logo" class="logo" width="50px" height="50px" data-aos="fade-right" data-aos-duration="2000" />
+        <h2 data-aos="fade-right" data-aos-duration="2000">University</h2>
+        <ul class="navbar" data-aos="fade-left" data-aos-duration="2000">
+          <li>
+            <a href="../dashboard/index.html">Home</a>
+            <a href="../data_dosen/data_dosen.php">Data Dosen</a>
+            <a href="../data_mhs/data_mhs.php">Data Mahasiswa</a>
+            <a href="../data_pembayaran/pembayaran.php">Data Pembayaran</a>
+            <a href="../../index.php" class="logout">Log Out</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="container">
+      <div class="card1">
+        <a href="../absensi_dosen/absensi_dosen.php">
+          <button><i class="fa-sharp fa-regular fa-calendar-days"></i>ABSENSI DOSEN</button>
+        </a>
+        <a href="../absensi_mhs/absensi_mhs.php">
+          <button><i class="fa-sharp fa-solid fa-calendar-days"></i>ABSENSI MAHASISWA</button>
+        </a>
+        <a href="../daftar_mhs/daftar_mhs.php">
+          <button><i class="fa-regular fa-address-card"></i>DAFTAR MAHASISWA</button>
+        </a>
+      </div>
+      <div class="card2">
+        <a href="../data_mhs/data_mhs.php">
+          <button><i class="fa-solid fa-graduation-cap"></i>DATA MAHASISWA</button>
+        </a>
+        <a href="../data_dosen/data_dosen.php">
+          <button><i class="fa-solid fa-user-tie"></i>DATA DOSEN</button>
+        </a>
+        <a href="../data_pembayaran/pembayaran.php">
+          <button><i class="fa-sharp fa-regular fa-credit-card"></i>DATA PEMBAYARAN</button>
+        </a>
+      </div>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://kit.fontawesome.com/29c51fef9f.js" crossorigin="anonymous"></script>
+  </body>
+</html>

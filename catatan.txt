@@ -1,0 +1,8 @@
+<?php
+            $sql_semester = mysqli_query($db, "SELECT * FROM tb_semester") or die
+            (mysqli_error($db));
+            while($data_semester = mysqli_fetch_array($sql_semester)) {
+              echo'<option value="'.$data_semester['id_semester'].'">
+              '.$data_semester['semester'].'</option>';
+            }
+            ?>

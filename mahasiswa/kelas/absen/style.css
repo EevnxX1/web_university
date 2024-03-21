@@ -1,0 +1,170 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: gainsboro;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: transparent;
+  width: 100%;
+  height: 60px;
+  padding-right: 20px;
+  padding-left: 15px;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+}
+
+.nav-container .logo {
+  position: absolute;
+  top: 10px;
+}
+
+.nav-container h2 {
+  position: absolute;
+  left: 67px;
+  top: 2px;
+  color: white;
+  cursor: default;
+}
+
+.nav-container ul {
+  position: absolute;
+  right: 0px;
+  top: 10px;
+  list-style: none;
+  display: flex;
+  list-style: none;
+  width: 40%;
+  font-family: 'fantasy';
+}
+
+.nav-container ul li a {
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 55px;
+  margin-right: 20px;
+  color: white;
+}
+
+.nav-container ul li a:hover {
+  background-color: rgb(58, 53, 53);
+  color: white;
+  transition: all 0.3s ease-in-out;
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.nav-container ul li a:active {
+  background-color: blueviolete;
+  transition: all 0s;
+}
+/* end navbar */
+
+.background {
+  width: 100%;
+  height: 80px;
+  background-color: lightslategrey;
+}
+
+.container {
+  width: 1100px;
+  height: 790px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+h2 {
+  border-bottom: 3px solid gray;
+  padding-bottom: 7px;
+}
+
+.isi {
+  width: 100%;
+  height: 700px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.isi label {
+  margin-top: 10px;
+}
+
+.isi input {
+  height: 23px;
+  width: 99%;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 2px;
+  padding-left: 5px;
+  margin-top: 4px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.isi select {
+  height: 30px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 2px;
+  padding-left: 5px;
+  margin-top: 4px;
+}
+
+.isi textarea {
+  width: 99%;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 6px;
+  padding-left: 5px;
+  margin-top: 6px;
+  font-size: 15px;
+  resize: none;
+}
+
+.isi button {
+  margin-top: 20px;
+  width: 120px;
+  height: 50px;
+  color: white;
+  background-color: crimson;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.isi button:hover {
+  height: 60px;
+  cursor: pointer;
+  border-radius: 13px;
+  background-color: aqua;
+  color: white;
+  transition: all 0.3s ease-in-out;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.isi button:active {
+  background-color: blue;
+  transition: none;
+}

@@ -1,0 +1,40 @@
+body {
+  min-height: 3000px;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  color: aliceblue;
+  background: #c31432; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #240b36, #c31432); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+nav {
+  background: #dd3e54; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #6be585, #dd3e54); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #6be585, #dd3e54); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.gambar {
+  border-radius: 10%;
+}
+
+#about {
+  background-color: #544a7d;
+  color: whitesmoke;
+}
+
+#project {
+  background-color: #dd3e54;
+  color: whitesmoke;
+}
+
+#contact {
+  background-color: #23074d;
+  color: whitesmoke;
+}
+
+section {
+  padding-top: 5rem;
+}

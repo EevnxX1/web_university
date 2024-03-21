@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: gainsboro;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: transparent;
+  width: 100%;
+  height: 60px;
+  padding-right: 20px;
+  padding-left: 15px;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+}
+
+.nav-container .logo {
+  position: absolute;
+  top: 10px;
+}
+
+.nav-container h2 {
+  position: absolute;
+  left: 67px;
+  top: 2px;
+  color: white;
+  cursor: default;
+}
+
+.nav-container ul {
+  position: absolute;
+  right: 0px;
+  top: 10px;
+  list-style: none;
+  display: flex;
+  list-style: none;
+  width: 40%;
+  font-family: 'fantasy';
+}
+
+.nav-container ul li a {
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 37px;
+  margin-right: 20px;
+  color: white;
+}
+
+.nav-container ul li a:hover {
+  background-color: rgb(58, 53, 53);
+  color: white;
+  transition: all 0.3s ease-in-out;
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.nav-container ul li a:active {
+  background-color: blueviolete;
+  transition: all 0s;
+}
+/* end navbar */
+
+.background {
+  width: 100%;
+  height: 80px;
+  background-color: lightslategrey;
+}
+
+.container {
+  width: 1400px;
+  margin: 50px auto;
+}
+
+.h2 {
+  border-bottom: 3px solid gray;
+  padding-bottom: 7px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.btn {
+  width: 270px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#cari {
+  width: 120px;
+  height: 45px;
+  background-color: crimson;
+  color: white;
+  border-radius: 13px;
+  margin-bottom: 4px;
+}
+
+#cari:hover {
+  height: 55px;
+  background-color: aqua;
+  cursor: pointer;
+  border-radius: 15px;
+  font-weight: bold;
+  transition: ease-in-out 0.3s all;
+}
+
+input {
+  height: 25px;
+  width: 180px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.table {
+  width: 100%;
+  text-align: center;
+  border: 1px solid black;
+  background-color: white;
+}
+
+th {
+  background-color: lightblue;
+}
+
+button {
+  width: 80px;
+  height: 30px;
+  background-color: crimson;
+  color: white;
+  border-radius: 13px;
+  margin-bottom: 4px;
+}
+
+button:hover {
+  width: 80px;
+  height: 40px;
+  background-color: aqua;
+  cursor: pointer;
+  border-radius: 15px;
+  font-weight: bold;
+  color: white;
+  transition: ease-in-out 0.3s all;
+}

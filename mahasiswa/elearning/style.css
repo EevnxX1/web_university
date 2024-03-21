@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: transparent;
+  width: 100%;
+  height: 60px;
+  padding-right: 20px;
+  padding-left: 15px;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+}
+
+.nav-container .logo {
+  position: absolute;
+  top: 10px;
+}
+
+.nav-container h2 {
+  position: absolute;
+  left: 67px;
+  top: 2px;
+  color: white;
+  cursor: default;
+}
+
+.nav-container ul {
+  position: absolute;
+  right: 0px;
+  top: 10px;
+  list-style: none;
+  display: flex;
+  list-style: none;
+  width: 40%;
+  font-family: 'fantasy';
+}
+
+.nav-container ul li a {
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 55px;
+  margin-right: 20px;
+  color: white;
+}
+
+.nav-container ul li a:hover {
+  background-color: rgb(58, 53, 53);
+  color: white;
+  transition: all 0.3s ease-in-out;
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.nav-container ul li a:active {
+  background-color: blueviolete;
+  transition: all 0s;
+}
+/* end navbar */
+
+.background {
+  width: 100%;
+  height: 150px;
+  background-color: lightslategrey;
+}
+
+.container {
+  width: 1200px;
+  margin: 140px auto;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.container h2 {
+  border-bottom: 3px solid gray;
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+.container .kls1 {
+  border-bottom: 3px solid gainsboro;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.container .kls {
+  border-bottom: 3px solid gainsboro;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.dosen1 {
+  margin-left: 10px;
+}
+
+.dosen2 {
+  margin-right: 160px;
+}
+
+.dosen3 {
+  margin-right: 174px;
+}
+
+span {
+  font-size: 20px;
+}
+
+button {
+  height: 30px;
+  width: 120px;
+  border-radius: 10px;
+  border: 0px;
+  background-color: crimson;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  height: 50px;
+  width: 120px;
+  border-radius: 20px;
+  transition: all 0.3s ease-in-out;
+  background-color: aqua;
+}

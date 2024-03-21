@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+  background: url(asset/2.jpg);
+  background-size: cover;
+}
+
+/* navbar */
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+  width: 100%;
+  height: 60px;
+  padding-right: 20px;
+  padding-left: 15px;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+}
+
+.nav-container .logo {
+  position: absolute;
+  top: 10px;
+}
+
+.nav-container h2 {
+  position: absolute;
+  left: 67px;
+  top: 2px;
+  color: white;
+  cursor: default;
+}
+
+.nav-container ul {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  list-style: none;
+  display: flex;
+  list-style: none;
+  width: 45%;
+  font-family: 'fantasy';
+}
+
+.nav-container ul li a {
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 55px;
+  margin-right: 20px;
+  color: white;
+}
+
+.nav-container ul li a:hover {
+  background-color: crimson;
+  color: white;
+  transition: all 0.3s ease-in-out;
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.nav-container ul li a:active {
+  background-color: aqua;
+  transition: all 0s;
+}
+
+/* end navbar */
+
+/* landing page */
+.container {
+  position: relative;
+}
+
+.img {
+  background: url(asset/4.svg);
+  height: 650px;
+  width: 890px;
+  background-size: cover;
+  position: absolute;
+  top: 80px;
+  right: 150px;
+}
+
+.welcome {
+  position: absolute;
+  text-align: center;
+  top: 280px;
+  left: 140px;
+  color: white;
+}
+
+.welcome h1 {
+  font-size: 50px;
+  font-family: verdana;
+}
+
+.welcome .landing-page {
+  font-size: 33px;
+  margin-top: -30px;
+  font-family: verdana;
+}
+
+.welcome .button {
+  height: 60px;
+  width: 220px;
+  margin-top: 20px;
+  font-size: 20px;
+  border-radius: 30px;
+  border: 0px;
+  background-color: crimson;
+  color: white;
+  cursor: pointer;
+}
+
+.welcome .button:hover {
+  height: 85px;
+  width: 250px;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+  background-color: aqua;
+}
+
+.welcome .button:active {
+  background-color: blue;
+  transition: none;
+}

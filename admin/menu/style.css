@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: gainsboro;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: transparent;
+  width: 100%;
+  height: 60px;
+  padding-right: 20px;
+  padding-left: 15px;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+}
+
+.nav-container .logo {
+  position: absolute;
+  top: 10px;
+}
+
+.nav-container h2 {
+  position: absolute;
+  left: 67px;
+  top: 2px;
+  color: white;
+  cursor: default;
+}
+
+.nav-container ul {
+  position: absolute;
+  right: 0px;
+  top: 10px;
+  list-style: none;
+  display: flex;
+  list-style: none;
+  width: 40%;
+  font-family: 'fantasy';
+}
+
+.nav-container ul li a {
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 37px;
+  margin-right: 20px;
+  color: white;
+}
+
+.nav-container ul li a:hover {
+  background-color: rgb(58, 53, 53);
+  color: white;
+  transition: all 0.3s ease-in-out;
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.nav-container ul li a:active {
+  background-color: blueviolete;
+  transition: all 0s;
+}
+/* end navbar */
+
+.background {
+  width: 100%;
+  height: 80px;
+  background-color: lightslategrey;
+}
+
+.container {
+  width: 1400px;
+  height: 700px;
+  margin: 50px auto;
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.card1 {
+  width: 80%;
+  height: 30%;
+  margin: 80px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card2 {
+  width: 80%;
+  height: 30%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card1 button {
+  height: 90%;
+  width: 200px;
+  background-color: crimson;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 15px;
+}
+
+.card2 button {
+  height: 90%;
+  width: 200px;
+  background-color: crimson;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 15px;
+}
+
+.card1 button i,
+.card2 button i {
+  display: block;
+  font-size: 40px;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.card1 button:hover,
+.card2 button:hover {
+  cursor: pointer;
+  height: 100%;
+  width: 220px;
+  background-color: aqua;
+  font-size: 23px;
+  transition: ease-in-out 0.3s all;
+}
+
+.card1 button:active,
+.card2 button:active {
+  background-color: blue;
+  transition: none;
+}

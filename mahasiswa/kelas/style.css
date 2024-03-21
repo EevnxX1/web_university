@@ -1,0 +1,206 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: gainsboro;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: transparent;
+  width: 100%;
+  height: 60px;
+  padding-right: 20px;
+  padding-left: 15px;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+}
+
+.nav-container .logo {
+  position: absolute;
+  top: 10px;
+}
+
+.nav-container h2 {
+  position: absolute;
+  left: 67px;
+  top: 2px;
+  color: white;
+  cursor: default;
+}
+
+.nav-container ul {
+  position: absolute;
+  right: 0px;
+  top: 10px;
+  list-style: none;
+  display: flex;
+  list-style: none;
+  width: 40%;
+  font-family: 'fantasy';
+}
+
+.nav-container ul li a {
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 55px;
+  margin-right: 20px;
+  color: white;
+}
+
+.nav-container ul li a:hover {
+  background-color: rgb(58, 53, 53);
+  color: white;
+  transition: all 0.3s ease-in-out;
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.nav-container ul li a:active {
+  background-color: blueviolete;
+  transition: all 0s;
+}
+/* end navbar */
+
+.background {
+  width: 100%;
+  height: 80px;
+  background-color: lightslategrey;
+}
+
+.container1 {
+  width: 1600px;
+  margin: 50px auto;
+  height: 370px;
+}
+
+.left {
+  float: left;
+  width: 500px;
+  height: 380px;
+  background-color: white;
+  border-radius: 7px;
+}
+
+.left img {
+  margin-left: 180px;
+  margin-top: 40px;
+}
+
+.left .teks {
+  text-align: center;
+}
+
+.teks .kelas {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.teks .ket {
+  font-size: 20px;
+}
+
+.teks .dosen {
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.right {
+  background-color: white;
+  float: right;
+  width: 1000px;
+  height: 380px;
+  padding-left: 70px;
+  border-radius: 7px;
+}
+
+.right h2 {
+  border-bottom: 3px solid gray;
+  margin: auto;
+  padding-top: 20px;
+  width: 100%;
+  padding-bottom: 10px;
+  margin-left: -40px;
+}
+
+.matkul {
+  border-bottom: 2px solid;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  font-weight: bold;
+}
+
+.container2 {
+  width: 1570px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 7px;
+}
+
+.container3 {
+  width: 1570px;
+  margin: 90px auto;
+  height: 600px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 7px;
+}
+
+.container2 h2,
+.container3 h2 {
+  border-bottom: 3px solid gray;
+  padding-bottom: 13px;
+  font-size: 25px;
+}
+
+.pertemuan {
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+.pertemuan h3 {
+  margin-top: 50px;
+}
+
+.pertemuan li {
+  list-style: none;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.pertemuan button {
+  margin-top: 20px;
+  height: 70px;
+  width: 120px;
+  margin-right: 50px;
+  font-size: 15px;
+  background-color: crimson;
+  border-radius: 15px;
+  color: white;
+}
+
+.pertemuan button:hover {
+  height: 85px;
+  cursor: pointer;
+  border-radius: 20px;
+  background-color: aqua;
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+.pertemuan button:active {
+  background-color: blue;
+  transition: none;
+}

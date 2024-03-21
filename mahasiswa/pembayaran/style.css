@@ -1,0 +1,169 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: gainsboro;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: transparent;
+  width: 100%;
+  height: 60px;
+  padding-right: 20px;
+  padding-left: 15px;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+}
+
+.nav-container .logo {
+  position: absolute;
+  top: 10px;
+}
+
+.nav-container h2 {
+  position: absolute;
+  left: 67px;
+  top: 2px;
+  color: white;
+  cursor: default;
+}
+
+.nav-container ul {
+  position: absolute;
+  right: 0px;
+  top: 10px;
+  list-style: none;
+  display: flex;
+  list-style: none;
+  width: 40%;
+  font-family: 'fantasy';
+}
+
+.nav-container ul li a {
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 55px;
+  margin-right: 20px;
+  color: white;
+}
+
+.nav-container ul li a:hover {
+  background-color: rgb(58, 53, 53);
+  color: white;
+  transition: all 0.3s ease-in-out;
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.nav-container ul li a:active {
+  background-color: blueviolete;
+  transition: all 0s;
+}
+/* end navbar */
+
+.background {
+  width: 100%;
+  height: 80px;
+  background-color: lightslategrey;
+}
+
+.container {
+  width: 1250px;
+  height: 600px;
+  background-color: white;
+  margin: 60px auto;
+  padding: 10px;
+  border-radius: 13px;
+}
+
+.container h2 {
+  border-bottom: 3px solid gray;
+  padding-bottom: 13px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.left {
+  float: left;
+  width: 600px;
+  height: 100%;
+  padding-left: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.right {
+  float: right;
+  width: 600px;
+  height: 100%;
+  padding-right: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 7px;
+  margin-right: 3px;
+}
+
+input {
+  margin-bottom: 20px;
+  height: 30px;
+  border-radius: 3px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+select {
+  margin-bottom: 20px;
+  height: 40px;
+  border-radius: 3px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.tombol {
+  margin-top: 420px;
+  width: 100%;
+  height: 80px;
+  margin-left: 20px;
+}
+
+.tombol button {
+  height: 70px;
+  width: 140px;
+  font-size: 17px;
+  background-color: crimson;
+  color: white;
+  border-radius: 10px;
+}
+
+.tombol button:hover {
+  height: 80px;
+  font-weight: bold;
+  background-color: aqua;
+  cursor: pointer;
+  transition: ease-in-out 0.3s all;
+}
+
+.tombol button:active {
+  background-color: blue;
+  transition: none;
+}
